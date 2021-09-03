@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="7" time="2.37">
+  <testsuite name="undefined" errors="0" failures="7" skipped="0" timestamp="2021-09-02T13:28:03" time="1.727" tests="7">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.038">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Total operations performed: 0
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:32:26)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" + operation works" name=" + operation works" time="0.019">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Result: 15
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:53:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" - operation works" name=" - operation works" time="0.008">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Result: 5
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:66:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" * operation works" name=" * operation works" time="0.009">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Result: 50
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:79:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" / operation works" name=" / operation works" time="0.008">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Result: 2
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:92:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" total operations count is maintained" name=" total operations count is maintained" time="0.007">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Result: 15
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:104:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Reset button works" name=" Reset button works" time="0.007">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Total operations performed: 1
+Received:
+
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:137:26)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
